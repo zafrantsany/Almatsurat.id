@@ -8,13 +8,28 @@
   src: url("../fonts/kfc_naskh-webfont.ttf");
 }
 
+.judul {
+  margin: 70px auto 0px auto;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 200;
+}
+
+.subjudul {
+  margin: 0px auto 0px auto;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 100;
+}
 .title {
   display: table; /* keep the background color wrapped tight */
   margin: 0px auto 0px auto;
   padding: 7px;
   font-size: 13px;
   background-color: green;
-  color: #000000;
+  color: #ffffff;
   border-radius: 5px;
 }
 
@@ -24,6 +39,12 @@
   font-size: 10px;
   background-color: black;
   color: #ffffff;
+  border-radius: 5px;
+}
+.blocks {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  margin: -30px auto -65px auto;
   border-radius: 5px;
 }
 
@@ -42,7 +63,7 @@
 }
 
 .zikir-block {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
   /* height: 200px; */
   width: 55%;
